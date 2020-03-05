@@ -1,0 +1,24 @@
+struct c
+{
+    int z;
+};
+struct b
+{
+    int y;
+    struct c p;
+};
+struct a
+{
+    int x;
+    struct b r;
+};
+int main()
+{
+    int k[1][2][3][4];
+    int j;
+    int w;
+    float s;
+    struct a m;
+    j=j&&k[0];
+    return j;
+}

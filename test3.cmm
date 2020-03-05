@@ -1,0 +1,15 @@
+int Fib(int i)
+{
+	if(i==0 || i==1)
+		return 1;
+	return Fib(i-1) + Fib(i-2);
+}
+ 
+int main()
+{
+	int n,result=1;
+	n=read();
+	result = Fib(n);
+    write(result);
+	return 0;
+}

@@ -1,0 +1,6 @@
+int main()
+{
+    float j;
+    j=j+10;
+    return 0;
+}

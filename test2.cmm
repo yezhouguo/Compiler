@@ -1,0 +1,12 @@
+int main()
+{
+    int i=1,result=1,n;
+    n = read();
+    while(i<=n)
+    {
+        result = result * i;
+        i = i + 1;
+    }
+    write(result);
+    return 0;
+}
